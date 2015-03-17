@@ -1,0 +1,15 @@
+# User Manual #
+
+The first time you run WiFiFoFum you'll want to configure your devices. In the devices list you should see an Aircard item, GPS and if you have any WiFi adaptors you should see them listed too. Click on your WiFi adaptor and click enabled. Scanning will start it you should see the number of networks in view label updated. Next if you have an Aircard GSM modem click on the Aircard item. Click enabled and you should see the labels filled with information. Now you have scanning enabled for both WiFi and GSM its time to enable the GPS so you can log the location of the access points and cell towers. Click the GPS item, choose the port your GPS is connected to, and click enabled. You should see the status label change to connected, and once you have a fix you will see the location labels updated. Now WiFiFoFum is running and will scan and save the location of all networks it sees.
+
+# Signal Graphs #
+
+To see a signal graph click the WiFi Database item and double click the network you are interested in to see it on a graph. The graph displays the signal strengh over time. You can drag a box to zoom this graph and access other options by right clicking, such as save as image or copy to clipboard, and you can also reset the zoom levels. Its also possible to graph multiple networks, just use shift to do a multi-select on the list of networks, then right click and choose Graph.
+
+# Exporting Data #
+
+Currently you can export WiFi or GSM data to Netstumbler (NS1) format for use in other war driving and mapping utilities. To export the WiFi data click the WiFi database item, then choose File->Export. Similarly to export the GSM data click the GSM database item and then File->Export. Enter the filename and click Save and your file will be created after a few seconds.
+
+# Problems #
+
+If you have any problems either make a post in the Issues section, or email me at indiekiduk@gmail.com
